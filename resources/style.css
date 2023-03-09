@@ -1,0 +1,932 @@
+body {
+    width: 100%;
+    margin: 0 auto;    
+}
+
+
+p {
+    font-family: merriweather, Palatino Linotype;
+    line-height: 40px;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: merriweather, Palatino Linotype;
+    
+    
+} 
+
+.direct_link {
+    font-family: merriweather, Palatino Linotype;;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#mobile-menu {
+    visibility: hidden;
+    position: absolute;
+}
+
+
+
+
+h1 {
+    font-family: merriweather, Palatino Linotype;;
+}
+
+
+#main_interlink {
+    text-decoration: none;
+    color: white;
+}
+
+.hax {
+    position: absolute;
+    visibility: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    background-color: hsla(0, 0%, 28%, 0.8);
+    width: 100%;
+    margin: 0 auto;
+}
+
+header h1 {
+    padding-left: 30px;
+    color: white;
+    font-family: merriweather, Palatino Linotype;;
+    font-style: italic;    
+    text-decoration: none;
+}
+header ul {
+    list-style-type: none;
+    display: flex;  
+
+}
+
+header li {
+    padding: 10px 30px 0px 30px;
+    color: white;
+    font-family: merriweather , Palatino Linotype;
+}
+
+#desktop_nav a {
+    background-color: #2a1e1e86;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#desktop_nav a:hover {
+    background-color: brown;
+    
+}
+
+#desktop_nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+/* Index Banner */
+
+#title {
+    text-align: center;
+    font-size: 80px;
+    font-family: merriweather, Palatino Linotype;
+    font-style: italic;
+    color: white;
+}
+
+#index_banner {
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/index/banner.jpg);
+    background-position: center;
+    background-size: cover; 
+    height: 700px;
+    width: auto;
+    flex-direction: column;
+}
+
+
+#index_banner nav {
+    display: flex;
+    justify-content: center;    
+}
+
+#index_banner ul {
+    display: flex;    
+}
+
+#index_banner li {
+    list-style-type: none;
+    padding: 20px;
+    font-family: merriweather, Palatino Linotype;
+    font-weight: bold;
+}
+
+#index_banner a {
+    background-color: #2a1e1e86;
+    color: #FCDDBC;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100px;
+}
+
+#index_banner a:hover {
+    background-color: brown;
+}
+
+/* index introduction */
+
+#index_introduction {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 700px;
+    text-align: center;  
+    flex-direction: column;
+    
+    
+    
+}
+
+#index_introduction p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* Index Products */
+
+#index_products {
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/index/background-index-products.jpg); 
+    background-size: cover; 
+    height: 700px;
+    align-items: center;
+}
+
+#index_products article {
+    display: flex;
+    width: 80%;
+    height: 500px;
+    text-align: center;
+    align-items: center;
+    background-color: hsla(0, 0%, 90%, 0.8);   
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#index_products p {
+    width: 80%;
+    
+}
+
+#index_products a {
+    color: #FCDDBC;
+    background-color:#36272786;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100px;
+    
+}
+
+#index_products a:hover {
+    background-color: brown;
+}
+
+
+/* Index Lokal */
+
+#index_lokal {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+#index_lokal  {
+    text-align: center;
+    
+}
+
+#index_lokal a {
+    color: #FCDDBC;
+    background-color:#36272786;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100px;
+}
+
+#index_lokal a:hover {
+    background-color: brown;
+}
+
+#cafe {
+    margin-left: 20px;
+    
+}
+
+/* Index Kurser */
+
+#index_kurser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/index/background-index-kurser.jpg);
+    background-size: cover; 
+    height: 700px;
+}
+
+#index_kurser article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: hsla(0, 0%, 90%, 0.8);   
+    width: 80%;
+    height: 500px;
+
+}
+
+#index_kurser a {
+    background-color: #36272786;
+    color: #FCDDBC;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100px;
+}
+
+
+
+#index_kurser a:hover {
+    background-color: brown;
+}
+
+/* Index Om oss */
+
+#index_om_oss {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: 700px;
+
+    
+}
+
+
+#index_om_oss a {
+    background-color: #36272786;
+    color: #FCDDBC;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100px;
+}
+
+#index_om_oss article {
+    margin: 0 60px 0 60px;
+    flex-direction: column;
+    
+    align-items: center;
+    padding-top: 100px;
+        
+}
+
+
+#index_om_oss a:hover {
+    background-color: brown;
+}
+
+
+/* ------------------- PRODUKTER SIDA --------------------*/
+
+/* Produktbanner */
+
+#produkter_banner {
+    background-image: url(images/produkter/produkter-banner.png);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#produkter_article {
+    display: flex;
+    background-color:  hsla(0, 0%, 90%, 0.8);  
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin: auto; 
+    
+    
+}
+
+#produkter_article p {
+    padding: 0 20px 0 20px;
+    
+}
+
+#cakelist {
+    width: 80%;
+}
+
+/* Produktinformation */
+
+#produkt_information {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#produkt_lista {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;   
+    align-items: center;
+}
+
+
+#cakelist {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+#cakelist figcaption {
+    text-align: center;
+    font-family: merriweather, Palatino Linotype;
+    font-weight: 900;
+}
+
+#cakelist img {
+    border: 1px solid rgba(0, 0, 0, 0.116);
+}
+
+/* ------------- BOKA LOKAL SIDA -------------*/
+
+#lokal_banner {
+    background-image: url(images/lokal/banner.jpg);
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+#lokal_banner_article {
+    display: flex;
+    background-color:  hsla(0, 0%, 90%, 0.8);  
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin: auto; 
+   
+}
+
+#lokal_information {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto ;
+    text-align: center;
+}
+
+
+#lokal_bilder {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#lokal_bilder img {
+    border: 3px solid black;
+    width: 100%;
+    height: auto;
+}
+
+/* -------- KURSER --------- */
+
+#kurser_banner {
+    background-image: url(images/kurser/banner.jpg);
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+#kurser_banner_article {
+    display: flex;
+    background-color:  hsla(0, 0%, 90%, 0.8);  
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin: auto; 
+   
+}
+
+#kurser_information_text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    
+}
+
+#kurser_privat {
+    display: flex;
+    margin-top: 20px;
+}
+
+#kurser_privat article {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+#kurser_privat div {
+    padding-left: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+#kurser_foretag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(images/kurser/kurs-2.jpg);
+    height: 700px;
+    margin-top: 20px;
+    
+}
+
+#kurser_foretag article {
+    background-color:  hsla(0, 0%, 90%, 0.8);  
+    width: 80%;
+    height: 50%;
+}
+
+#kurser_foretag p {
+    margin-top: -10px;
+}
+
+#kurser_foretag div {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* ------------ OM OSS --------------*/
+
+#om_oss_banner {
+    background-image: url(images/om-oss/om-oss-banner.jpg);
+    background-position: 50% 25%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+#om_oss_banner_article {
+    display: flex;
+    background-color:  hsla(0, 0%, 90%, 0.8);  
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin: auto; 
+    
+}
+
+#om_oss_introduction {
+    display: flex;
+    justify-content: center;
+}
+
+#om_oss_introduction_article {
+    display: flex;
+    text-align: center;
+    
+}
+
+#gallery_section h2 {
+    text-align: center;
+}
+
+#gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#recension  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+#recension article {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+
+#recension div {
+    padding-left: 30px;
+    text-align: left;
+}
+
+#recension p {
+    font-style: italic;
+}
+
+.name {
+    text-align: right;
+}
+
+#form_section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-image: url(images/om-oss/form-banner.jpg);
+    height: 700px;
+}
+
+#form_section div {
+    background-color: hsla(0, 0%, 90%, 0.8); 
+    width: 40%;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+label {
+    font-family: merriweather, Palatino Linotype;
+}
+
+input, textarea {
+    border-radius: 5px;
+    opacity: 0.8;
+}
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    border-top: 5px solid #474747;
+    justify-content: center;
+    align-items: center;
+    font-family: merriweather, Palatino Linotype;
+    width: auto;
+    height: 200px;
+    background-color: hsla(0, 0%, 28%, 0.8);
+    color: white;
+    
+}
+
+/* Media Queries */
+
+@media only screen and (max-width:426px)   {
+    
+/* Index + General Media Queary */
+
+    header {
+        visibility: hidden;    
+    }
+
+    #mobile-menu {
+        visibility: visible;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        position: fixed;
+        background-color: hsla(0, 0%, 28%, 0.8);
+        width: 90%;
+        margin: 0 auto;  
+        height: 50px; 
+    }
+
+    #mobile-menu a {
+        padding: 8px;
+        border-radius: 10px;
+        font-family: merriweather;
+        background-color: hsla(0, 0%, 15%, 0.8);
+        color: white 
+    }
+
+    #index_banner  {
+        flex-direction: column;
+        text-align: center;
+        background-position: center center;
+        background-size: auto;  
+    }
+    
+    #index_banner ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 100px;    
+        justify-content: center;
+    }
+
+
+    #index_introduction {
+        text-align: center;
+    }
+ 
+    #index_products article {
+        flex-direction: column;      
+       
+    }
+
+    #cafe {
+        visibility: hidden;
+        width: 1%;
+        height: 1%;
+    }
+
+
+    #lokal_text {
+        width: 80%;
+
+}
+  
+    #kurser_privat article {
+        flex-direction: column;
+    }
+
+    #kurser_foretag article {
+        flex-direction: column;
+        width: auto;
+    }
+  
+    #recension article {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .name {
+        text-align: center;
+    }
+
+    #form_section div {
+        width: auto;
+        padding: 0;
+    }
+
+    textarea {
+        width: 90%;
+        
+    }
+
+    #kurser_privat div {
+        padding: 0;
+        
+    }
+
+    #kurser_privat {
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    #kurser_privat article {
+        display: flex;
+        width: 80%;
+        margin: auto;
+    }
+    
+   
+   
+}
+
+@media only screen and (max-width:769px) {
+    
+    header {
+        visibility: hidden;    
+    }
+
+    #mobile-menu {
+        visibility: visible;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        position: fixed;
+        background-color: hsla(0, 0%, 28%, 0.8);
+        width: 100%;
+        margin: 0 auto;  
+        height: 50px; 
+    }
+
+    #mobile-menu a {
+        padding: 8px;
+        border-radius: 10px;
+        font-family: merriweather;
+        background-color: hsla(0, 0%, 15%, 0.8);
+        color: white 
+    }
+
+    #kurser_privat article {
+        flex-direction: column;
+    }
+  
+    #recension article {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .name {
+        text-align: center;
+    }
+
+    #form_section div {
+        width: 80%;
+        padding: 0;
+        
+    }
+
+    textarea {
+        width: 90%;
+        
+    }
+
+
+    .hax {
+        position: absolute;
+        visibility: hidden;
+}
+
+
+    #mobile-menu {
+        visibility: visible;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        background-color: hsla(0, 0%, 28%, 0.8);
+        width: 100%;
+        margin: 0 auto;  
+        height: 50px; 
+    }
+
+    #mobile-menu a {
+        padding: 8px;
+        border-radius: 10px;
+        font-family: merriweather;
+        background-color: hsla(0, 0%, 15%, 0.8);
+        color: white 
+    }
+
+    #index_banner  {
+        flex-direction: column;
+        text-align: center;
+        background-position: center center;
+        background-size: auto;  
+    }
+
+    #index_banner ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 100px;    
+        justify-content: center;
+    }
+
+
+    #index_introduction {
+        text-align: center;
+    }
+
+    #index_products article {
+        flex-direction: column;      
+    
+    }
+
+
+    #cafe {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    #cupcake {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    #lokal_text {
+        width: 80%;
+
+    }
+
+    #kurser_privat article {
+        flex-direction: column;
+    }
+
+    #kurser_foretag article {
+        flex-direction: column;
+        width: auto;
+    }
+
+    #recension article {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .name {
+        text-align: center;
+    }
+
+    #form_section div {
+        width: auto;
+        padding: 0;
+    }
+
+    textarea {
+        width: 90%;
+        
+    }
+
+    }
+
+
+@media only screen and (max-width:320px) {
+    #gallery_section img {
+        width: 95%;
+    }
+
+    #recension img {
+        width: 95%;
+    }
+
+    #cakelist img {
+        width: 90%;
+    }
+
+    #kurser_foretag article {
+        height: 400px;
+    }
+
+    #produkter_article {
+        padding: 20px;
+    }
+
+    #gallery_section h2 {
+        font-size: 20px;
+    }
+}
+
+/* @media only screen and (max-width:375px) {
+    #cakelist img {
+        width: 90%;
+    }
+
+} */
